@@ -1,0 +1,6 @@
+16S rDNA amplicon sequencing
+The bacterial genomic DNA was extracted using the Fast DNA SPIN extraction kits (MP Biomedicals, Santa Ana, CA), quantitated and qualified by NanoDrop ND-1000 spectrophotometer (Thermo Fisher Scientific, Waltham, MA) and agarose gel electrophoresis, respectively. PCR amplification of the bacterial 16S rDNA genes V3–V4 region was performed using the forward primer 338F (5’-ACTCCTACGGGAGGCAGCA-3’) and the reverse primer 806R (5’-GGACTACHVGGGTWTCTAAT-3’). PCR amplicons were purified with Agencourt AMPure beads (Beckman Coulter, Indianapolis, IN) and quantified using the PicoGreen dsDNA Assay Kit (Invitrogen). The pair-end 2 × 300 bp sequencing was performed using the Illumina MiSeq platform with MiSeq Reagent Kit v3.
+
+Bioinformatic analysis
+
+16S rDNA sequencing data analyses were mainly performed using the QIIME2 (Quantitative Insights into Microbial Ecology, version 1.8.0) pipeline and R packages (v3.6.3), as previously described. Annotation of bacteria OTUs was based on SILVA 138.1. 
