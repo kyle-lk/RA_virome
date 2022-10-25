@@ -1,0 +1,63 @@
+SampleID	Group_RA	Group_paired	Sex	Age	Height	Weight	BMI	Disease duration	Anti-CCP	RF	CRP	ESR	ANA	RF_bool	CCR_bool	crp_bool	esr_bool
+DR1A	RA	Concordant siblings-RA	2	63	164	60	22.3	33	329.73	363	2.74	10	0.152777778	pos	pos	neg	neg
+DR1B	RA	Concordant siblings-RA	1	60	175	60	19.6	33	245.04	400	8.43	54	0.263888889	pos	pos	pos	pos
+DR2A	RA	Concordant siblings-RA	2	62	158	55	22	6	232.17	28.2	13.44	11	0.152777778	pos	pos	pos	neg
+DR2B	RA	Concordant siblings-RA	2	60	158	65	26	11	5.64	10	20.25	10	0.152777778	neg	neg	pos	neg
+DR3A	RA	Concordant siblings-RA	2	62	160	37	14.5	46	226.84	461.8	16.86	97	0	pos	pos	pos	pos
+DR3B	RA	Concordant siblings-RA	2	60	158	41	16.4	40	163.98				0	NA	pos	NA	NA
+DR4A	RA	Concordant siblings-RA	2	62	158	77.5	31	33	54.47	10	0.86	9	0	neg	pos	neg	neg
+DR4B	RA	Concordant siblings-RA	2	60	154	53	22.3	14	114.26	10	1.1	16	0	neg	pos	neg	neg
+DR5A	RA	Concordant siblings-RA	1	54	176	80	25.8	13	128.38	448	0.6	3	0	pos	pos	neg	neg
+DR5B	RA	Concordant siblings-RA	1	52	180	90	27.8	2	189.16	97.5	19.9	20	0.097222222	pos	pos	pos	pos
+DR6A	RA	Concordant siblings-RA	2	55	157	61	24.7	13	200	10	5.87	20	0	neg	pos	neg	pos
+DR6B	RA	Concordant siblings-RA	2	55	157	50	20.3	12		200	4	10		pos	NA	neg	neg
+DR7A	RA	Concordant siblings-RA	2	54	167	47	16.9	25	147.92	457	3.83	36	0	pos	pos	neg	pos
+DR7B	RA	Concordant siblings-RA	2	55	172	40	13.5	28	23.44	10	19.52	150	0	neg	pos	pos	pos
+DR8A	RA	Concordant siblings-RA	1	37	171	72	24.6	1.3	10.12	326	16.44	16	0	pos	neg	pos	neg
+DR8B	RA	Concordant siblings-RA	2	33	160	65	25.4	2.5	135.38	161	4.33	27	0	pos	pos	neg	pos
+DR9A	RA	Concordant siblings-RA	2	43	163	55	20.7	10	194.67				0	NA	pos	NA	NA
+DR9B	RA	Concordant siblings-RA	2	52	162	70	26.7	20	159.8	31	7.97	19	0	pos	pos	neg	neg
+DR10A	RA	Concordant siblings-RA	2	47	158	52.5	21	27	80.71	822	6.82	20	0	pos	pos	neg	pos
+DR10B	RA	Concordant siblings-RA	2	56	160	65	25.4	11	7.28	554	0.59	6	0.152777778	pos	neg	neg	neg
+SR1A	RA	Discordant siblings-RA	2	58	150	60	26.7	26	212.92	1420	74.06	1	0	pos	pos	neg	pos
+SR2A	RA	Discordant siblings-RA	2	66	152	65	28.1	4	178.07	10	7.2	21		pos	pos	neg	NA
+SR3A	RA	Discordant siblings-RA	2	59	165	95	34.9	9	224.8	64.3	5.72	51	0.152777778	pos	pos	pos	neg
+SR4A	RA	Discordant siblings-RA	1	61	170	72	24.9	5	191.08	184	7.19	14	0	neg	pos	neg	pos
+SR5A	RA	Discordant siblings-RA	2	52	154	59	24.9	1.5	14.97	27.16	0.1	28	0	pos	pos	neg	pos
+SR6A	RA	Discordant siblings-RA	2	40	161	62.5	24.1	2	165.76	30.8	1.06	25	0	pos	pos	neg	neg
+SR7A	RA	Discordant siblings-RA	2	54	165	58	21.3	6	893.5	185	0.64	30	0.152777778	pos	neg	neg	pos
+SR8A	RA	Discordant siblings-RA	2	68	157	62	25.2	36	175.96	10	38.64	38	0	pos	pos	neg	pos
+SR9A	RA	Discordant siblings-RA	2	40	160	65	25.4	1	216.32	10	0.88	8	0	pos	pos	neg	pos
+SR10A	RA	Discordant siblings-RA	2	61	160	55	21.5	2	130.13	1560	4.04	31	0.263888889	neg	pos	pos	pos
+SR11A	RA	Discordant siblings-RA	2	57	160	80	31.3	1	122.24	50.8	7.3		0.486111111	neg	pos	neg	neg
+SH1B	HC	Discordant siblings-HC	2	56	155	60	25										
+SH2B	HC	Discordant siblings-HC	1	68	168	60	21.3										
+SH3B	HC	Discordant siblings-HC	1	54	166	85	30.8										
+SH4B	HC	Discordant siblings-HC	1	61	176	78	25.2										
+SH5B	HC	Discordant siblings-HC	2	49	164	65	24.2										
+SH6B	HC	Discordant siblings-HC	2	43	160	57	22.3										
+SH7B	HC	Discordant siblings-HC	2	49	162	56	21.3										
+SH8B	HC	Discordant siblings-HC	1	65	173	77.5	25.9										
+SH9B	HC	Discordant siblings-HC	1	38	170	70	24.2										
+SH10B	HC	Discordant siblings-HC	1	55	172	70	23.7										
+SH11B	HC	Discordant siblings-HC	2	49	160	60	46.9										
+DH1A	HC	Concordant siblings-HC	2	59	158	67.5	27										
+DH1B	HC	Concordant siblings-HC	2	64	161	70	27										
+DH2A	HC	Concordant siblings-HC	2	50	155	50	20.8										
+DH2B	HC	Concordant siblings-HC	2	51	160	57.5	22.5										
+DH3A	HC	Concordant siblings-HC	1	62	178	75	23.7										
+DH3B	HC	Concordant siblings-HC	2	59	160	71	27.7										
+DH4A	HC	Concordant siblings-HC	2	59	158	50	20										
+DH4B	HC	Concordant siblings-HC	1	57	178	77	24.3										
+DH5A	HC	Concordant siblings-HC	2	50	155	57.5	23.9										
+DH5B	HC	Concordant siblings-HC	2	53	164	65	24.2										
+DH6A	HC	Concordant siblings-HC	1	61	170	80	27.7										
+DH6B	HC	Concordant siblings-HC	2	53	158	55	22										
+DH7A	HC	Concordant siblings-HC	2	55	155	50	20.8										
+DH7B	HC	Concordant siblings-HC	2	59	160	70	27.3										
+DH8A	HC	Concordant siblings-HC	2	57	160	80	31.3										
+DH8B	HC	Concordant siblings-HC	2	49	160	60	23.4										
+DH9A	HC	Concordant siblings-HC	2	54	165	60	22										
+DH9B	HC	Concordant siblings-HC	2	51	165	60	22										
+DH10A	HC	Concordant siblings-HC	1	47	175	85	27.8										
+DH10B	HC	Concordant siblings-HC	2	43	160	57.5	22.5										
