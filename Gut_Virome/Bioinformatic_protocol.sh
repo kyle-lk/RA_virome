@@ -31,6 +31,8 @@ vsearch --cluster_fast  $output/merged/merged_contigs_lt1000.fasta --maxseqlengt
 
 #### 4. Candidate viral contigs selection
 ##############################
+blastn -query  $output/merged/vsearch/Non_redundant_contigs.fa  -evalue 1e-8   -task megablast  -num_alignments 50 -out $output/merged/vsearch/Non_redundant_contigs_blastn_nt.out   -outfmt 6   -num_threads 15    -db nt_database
+
 CAT contigs -c $output/merged/vsearch/Non_redundant_contigs.fa -d CAT_prepare_20210107/2021-01-07_CAT_database -t CAT_prepare_20210107/2021-01-07_taxonomy  --path_to_diamond diamond
 CAT add_names -i out.CAT.contig2classification.txt -o out.CAT.contig2classification_addname.txt -t 2021-01-07_taxonomy --only_official   ## add taxonomy
 cat out.CAT.contig2classification_addname.txt | grep -E "Viruses|phage" > Viruses_hit.txt    ## selection
