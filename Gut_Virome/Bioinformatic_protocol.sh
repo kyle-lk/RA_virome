@@ -37,14 +37,14 @@ CAT contigs -c $output/merged/vsearch/Non_redundant_contigs.fa -d CAT_prepare_20
 CAT add_names -i out.CAT.contig2classification.txt -o out.CAT.contig2classification_addname.txt -t 2021-01-07_taxonomy --only_official   ## add taxonomy
 cat out.CAT.contig2classification_addname.txt | grep -E "Viruses|phage" > Viruses_hit.txt    ## selection
 
-python dvf.py -i $output/merged/vsearch/Non_redundant_contigs.fa -o  $output/merged/dvf_output -l 500 -c $THREADS  ## DeepVirFinder 
+python dvf.py -i $output/merged/vsearch/candidate_virus_contigs.fa -o  $output/merged/dvf_output -l 500 -c $THREADS  ## DeepVirFinder 
 
-virsorter run -w $output/merged/virsorter2 -i $output/merged/vsearch/Non_redundant_contigs.fa  all
+virsorter run -w $output/merged/virsorter2 -i $output/merged/vsearch/candidate_virus_contigs.fa  all
 
 #### 5. CheckV analysis
 ##############################
 
-checkv end_to_end candidate_virus_contigs.fna checkv_output -d $THREADS  -d checkv_database
+checkv end_to_end candidate_virus_contigs_selected.fna checkv_output -d $THREADS  -d checkv_database
 
 #### 6. lytic vs lysogenic phage identification
 ##############################
